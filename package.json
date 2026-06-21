@@ -1,0 +1,44 @@
+{
+  "name": "@aida/agent",
+  "version": "0.1.0",
+  "description": "AIDA Agent SDK — cryptographic identity and request signing for AI agents on the web",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc && node scripts/build-cjs.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["aida", "agent", "identity", "ed25519", "rfc9421", "http-signatures", "ai-agent"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agent-interaction-labs/aida-agent"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "@noble/hashes": "^1.7.0",
+    "base58-universal": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
