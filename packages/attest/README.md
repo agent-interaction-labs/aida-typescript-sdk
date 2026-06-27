@@ -166,4 +166,4 @@ No native dependencies. No blockchain libraries. No polyfills required.
 
 ## License
 
-MIT
+Apache-2.0
