@@ -1,19 +1,19 @@
-# @aida/agent
+# @aida/attest
 
-**AIDA Agent SDK** — cryptographic identity and HTTP request signing for AI agents on the web.
+**AIDA Attest SDK** — cryptographic identity, attestation, and HTTP request signing for AI agents on the web.
 
 > Part of the [AIDA Protocol](https://github.com/agent-interaction-labs/aida-spec) — the open standard for agent identity, delegation, and attestation.
 
 ## Install
 
 ```bash
-npm install @aida/agent
+npm install @aida/attest
 ```
 
 ## Quick Start
 
 ```typescript
-import { createAgent } from '@aida/agent';
+import { createAgent } from '@aida/attest';
 
 // 1. Create an agent identity (one-time)
 const agent = await createAgent({
@@ -94,7 +94,7 @@ const updatedIdentity = await agent.regenerate();
 ### Utility Functions
 
 ```typescript
-import { generateKeypair, generateDnsRecord, verifyIdentityDocument } from '@aida/agent';
+import { generateKeypair, generateDnsRecord, verifyIdentityDocument } from '@aida/attest';
 
 // Generate keys without creating a full agent
 const keypair = generateKeypair();
@@ -112,7 +112,7 @@ const isValid = verifyIdentityDocument(identityDoc);
 After creating an agent, publish its identity so web servers can discover the public key:
 
 ```typescript
-import { generateDnsRecord, generateDnsInstructions } from '@aida/agent';
+import { generateDnsRecord, generateDnsInstructions } from '@aida/attest';
 
 console.log(generateDnsInstructions({ dns: 'alice.example.com' }));
 // Prints:

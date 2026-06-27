@@ -1,7 +1,7 @@
 /**
  * AIDA Agent SDK — Public API.
  *
- * @aida/agent — Cryptographic identity and request signing for AI agents on the web.
+ * @aida/attest — Cryptographic identity, attestation, and request signing for AI agents on the web.
  *
  * @packageDocumentation
  */

@@ -262,10 +262,10 @@ import type {
 
 Before your server can verify agents, those agents must publish their identity documents so resolvers can discover their public keys.
 
-### Publishing an Agent Identity (from @aida/agent)
+### Publishing an Agent Identity (from @aida/attest)
 
 ```typescript
-import { generateDnsInstructions } from '@aida/agent';
+import { generateDnsInstructions } from '@aida/attest';
 
 // Print DNS setup instructions
 console.log(generateDnsInstructions({ dns: 'alice.example.com' }));
@@ -349,7 +349,7 @@ No native dependencies. No blockchain libraries. No polyfills required.
 
 ## Related Packages
 
-- **[@aida/agent](https://github.com/agent-interaction-labs/aida-agent)** — Client SDK for creating agent identities and signing HTTP requests
+- **[@aida/attest](https://github.com/agent-interaction-labs/aida-typescript-sdk)** — Client SDK for creating agent identities, attestation, and signing HTTP requests
 - **[aida-spec](https://github.com/agent-interaction-labs/aida-spec)** — Protocol specification and JSON Schema
 
 ## License

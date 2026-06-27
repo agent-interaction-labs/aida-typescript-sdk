@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in `@aida/agent`, please report it privately to the maintainers. Do NOT open a public issue.
+If you discover a security vulnerability in `@aida/attest`, please report it privately to the maintainers. Do NOT open a public issue.
 
 **Email:** security@agent-interaction-labs.dev (placeholder — update before publishing)
 
