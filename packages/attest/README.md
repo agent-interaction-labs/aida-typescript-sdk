@@ -167,3 +167,7 @@ No native dependencies. No blockchain libraries. No polyfills required.
 ## License
 
 Apache-2.0
+
+---
+
+**Built by [Agent Interaction Labs](https://github.com/agent-interaction-labs)** — opening the web to agentic interaction.

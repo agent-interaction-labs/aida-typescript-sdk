@@ -84,3 +84,7 @@ npm test
 ## 📜 License
 
 This project is licensed under the [Apache-2.0 License](./packages/attest/LICENSE).
+
+---
+
+**Built by [Agent Interaction Labs](https://github.com/agent-interaction-labs)** — opening the web to agentic interaction.
