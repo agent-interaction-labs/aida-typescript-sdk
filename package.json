@@ -2,7 +2,7 @@
   "name": "@aida/agent",
   "version": "0.1.0",
   "description": "AIDA Agent SDK — cryptographic identity and request signing for AI agents on the web",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "module",
   "exports": {
     ".": {

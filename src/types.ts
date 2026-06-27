@@ -21,7 +21,7 @@ export interface AgentController {
 }
 
 /** Protocol spoken at an endpoint */
-export type AgentProtocol = 'mcp' | 'aip' | 'a2a' | 'openapi' | 'grpc' | 'graphql' | 'websocket';
+export type AgentProtocol = 'mcp' | 'aixa' | 'a2a' | 'openapi' | 'grpc' | 'graphql' | 'websocket';
 
 /** Service endpoint where the agent can be reached */
 export interface AgentEndpoint {

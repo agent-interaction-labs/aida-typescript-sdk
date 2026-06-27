@@ -179,7 +179,7 @@ describe('loadAgent', () => {
 
     const created = await createAgent({
       controller: { email: 'roundtrip@example.com' },
-      endpoints: [{ url: 'https://example.com/api', protocol: 'aip' }],
+      endpoints: [{ url: 'https://example.com/api', protocol: 'aixa' }],
       capabilities: ['task'],
       storagePath: kpPath,
     });
