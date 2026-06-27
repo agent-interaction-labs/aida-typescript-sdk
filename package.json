@@ -1,0 +1,13 @@
+{
+  "name": "aida-typescript-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AIDA TypeScript SDK Monorepo — @aida/attest and @aida/verify",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces"
+  }
+}
